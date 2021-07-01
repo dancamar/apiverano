@@ -1,11 +1,8 @@
-import React from 'react'
+import Persona from './persona.model';
+import Articulo from './articulo.model';
 
-function index() {
-    return (
-        <div>
-            
-        </div>
-    )
+
+export default{
+    Persona,
+    Articulo
 }
-
-export default index

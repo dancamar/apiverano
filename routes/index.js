@@ -1,11 +1,9 @@
-import React from 'react'
+import routerx from 'express-promise-router';
 
-function index() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import PersonaRoute from './persona.route';
 
-export default index
+const router=routerx();
+
+router.use('/persona', PersonaRoute);
+
+export default router;
